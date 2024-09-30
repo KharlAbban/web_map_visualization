@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mapboxgl-popup-content {
+    @apply px-2 py-4
+}
+.mapboxgl-popup-close-button {
+    @apply px-1 text-base font-semibold
+}
